@@ -88,6 +88,9 @@ h <- ggplot(df, aes(Return)) +
 # Arrange and display both plots side by side
 gridExtra::grid.arrange(g, h, nrow = 1, ncol = 2)
 
+# 6. Export data for modeling
+save(dax_adj, file = 'dax.RData')
+
 ```
 
 ## Tickers Used in the Paper
@@ -98,9 +101,6 @@ To replicate the data collection for the other financial indices analyzed in the
 * **Nikkei 225** (Japan): `^N225`
 * **DAX 30** (Germany): `^GDAXI`
 * **IBOVESPA** (Brazil): `^BVSP`
-
-# 6. Export data for modeling
-save(dax_adj, file = 'dax.RData')
 
 ## Citation
 
