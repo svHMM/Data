@@ -8,7 +8,7 @@ The main objective of this repository is to ensure the reproducibility of data c
 
 The raw historical data is fetched directly from **Yahoo Finance** using the `quantmod` package in R. 
 
-For each index, the daily closing price sequence $\{P_t\}_{t=1}^T$ (specifically the Adjusted Close price) is collected and filtered to remove missing values (`NA`). The daily percentage log-returns ($y_t$) are then calculated using the standard financial transformation:
+For each index, the daily closing price sequence $\{P_t\}$ (specifically the Adjusted Close price) is collected and filtered to remove missing values (`NA`). The daily percentage log-returns ($y_t$) are then calculated using the standard financial transformation:
 
 $$y_t = 100 \times \left( \log P_t - \log P_{t-1} \right), \quad t = 2, \dots, T$$
 
