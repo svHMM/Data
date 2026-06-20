@@ -102,8 +102,6 @@ To replicate the data collection for the other financial indices analyzed in the
 # 6. Export data for modeling
 save(dax_adj, file = 'dax.RData')
 
-```
-
 ## Citation
 
 If you use these datasets, the data collection scripts, or the methodology described in this repository for your research, please cite our paper:
