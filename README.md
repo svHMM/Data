@@ -99,5 +99,19 @@ To replicate the data collection for the other financial indices analyzed in the
 * **DAX 30** (Germany): `^GDAXI`
 * **IBOVESPA** (Brazil): `^BVSP`
 
+```
+
+## Citation
+
+If you use these datasets, the data collection scripts, or the methodology described in this repository for your research, please cite our paper:
+
+```bibtex
+@article{holtz2026stochastic,
+  title={Stochastic Volatility in Mean Models with Heavy Tails: A Fast Approximate Bayesian Inference Using Hidden Markov Models},
+  author={Holtz, Bruno Estanislau and Abanto-Valle, Carlos A. and Ehlers, Ricardo S. and Rodr{\'i}guez, Gabriel},
+  journal={Computational Statistics},
+  year={2026}
+}
+
 # 6. Export data for modeling
 save(dax_adj, file = 'dax.RData')
