@@ -20,12 +20,11 @@ To run the data collection script and generate the exploratory plots, you need t
 
 ```R
 install.packages(c("quantmod", "ggplot2", "gridExtra", "moments"))
+```
 
 ## Data Download & Processing Script (Example: DAX 30)
 
 The following R script automates the download of the DAX 30 index (`^GDAXI`) from Yahoo Finance (from **2002-01-01** to **2022-04-06**), computes the daily percentage log-returns, displays the descriptive summary statistics, plots the returns timeline alongside its empirical density histogram, and saves the preprocessed data.
-
-
 
 ```R
 # -------------------------------------------------------------------------
